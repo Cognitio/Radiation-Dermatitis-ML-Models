@@ -1,0 +1,10 @@
+ML models were developed using Python 3.12.4 with their respective libraries: 
+PyTorch for the neural network model, scikit-learn for random forest, and xgboost for the XGboost model. 
+Data preprocessing was performed using the pandas library while performance metrics and visualizations were generated using scikit-learn and matplotlib. 
+The SHAP (SHapley Additive exPlanations) library was used to evaluate feature importance and generate plots illustrating each feature’s impact on model predictions.
+
+Tabular Data was contained within Excel spreadsheets. 
+Binary variables were dichotomized into (0,1): E.g. RT Boost (Yes = 1, No = 0), Diabetes (Yes = 1, No = 0)
+Continous variables were normalized between 0 and 1. (X_max = X.max(axis=0), X = X / X_max)
+Age measured as date of birth to date of cancer surgery.
+
