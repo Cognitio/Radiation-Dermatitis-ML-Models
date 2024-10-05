@@ -8,5 +8,5 @@ Binary variables were dichotomized into (0,1): E.g. RT Boost (Yes = 1, No = 0), 
 Continous variables were normalized between 0 and 1. (X_max = X.max(axis=0), X = X / X_max)
 Age was measured as date of birth to date of cancer surgery.
 
-Due to patient privacy reasons, the dataset is not openly available. 
+ 
 Data utilized can be made available, interoperable, and reusable for other applications upon reasonable request to corresponding author. 
